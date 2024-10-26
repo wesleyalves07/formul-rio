@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Inter", serif;
+
+}
+.container{
+    display: flex;
+    padding: 30px;
+    gap: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px #000000;
+    flex-direction: column;
+    
+    & h1{
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 54px;
+        text-align: left;
+    }
+
+
+    & .forms{
+        display: flex;
+        flex-direction: column;
+        & .lados{
+            display: flex;
+            gap: 6px; 
+            & .lado1{
+                width: 30%;
+            }   
+            & .lado2{
+                width: 70%;
+            }
+            & .lado{
+                width: 50%;
+            }
+        } 
+        }
+        & .linha{
+            gap: 10px;
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+            & label{
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                text-align: left;
+            }
+            & input{
+                padding: 6px 10px 6px 10px;
+                gap: 10px;
+                border-radius: 6px;
+                border: 0.5px solid #757575;
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                Text-align: left;
+    
+    
+            }
+        }
+        & .select{
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+            gap: 6px;
+            width: 7%;
+        }
+        & .btn{
+            display: flex;
+            background-color: #5378BB;
+            justify-content: center;
+            padding: 10px 0px 10px 0px;
+            gap: 6px;
+            border-radius: 8px;
+            opacity: 0px;
+            margin-top: 10px;
+            & button{
+                background-color: #5378BB;
+                color: #fff;
+                border: none;
+
+
+            }
+        }
+    }
+    
